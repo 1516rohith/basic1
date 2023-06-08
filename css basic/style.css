@@ -1,0 +1,36 @@
+p {
+  color: brown;
+}
+
+#second {
+  font-size: 30px;
+}
+ .pg{
+    color: red;
+ }
+}
+
+section p {
+    text-decoration: line-through;
+}
+section p{
+    background-color: red;
+}
+
+[ href="google.com"] {
+    font-size: 20px;
+    font font-weight: bold;
+}
+
+p::first-letter {
+    color: aqua;
+    font size: 40px;
+}
+
+a:hover{
+    color: red;
+    font size: 45px;
+}
+
+p:nth-child(even){background-color: black;}
+

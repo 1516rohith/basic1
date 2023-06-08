@@ -1,0 +1,38 @@
+body{
+    font size: 45px;
+    margin: 0;
+}
+
+.parent {
+    background-color: blue;
+    padding: 10px ;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.parent div {
+    background: green;
+    width: 70px;
+    height: 70px;
+    gap: 10px;
+}
+
+.parent div:nth-child(even) {
+    background-color: crimson;
+}
+
+.item-5 {
+    align-self: flex-end;
+}
+
+.item-4 {
+    order:  -1;
+}
+
+.item-3 {
+    order: -1;
+}
